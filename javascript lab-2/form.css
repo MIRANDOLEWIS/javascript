@@ -1,0 +1,78 @@
+body{
+	font-family: sans-serif;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+     background-image:url(https://images.wallpaperscraft.com/image/single/leaves_plant_green_118405_1600x900.jpg) ;
+     height:100vh;
+     margin: 0;
+}
+
+.container{
+     background-color: white;
+     border-radius:8px;
+     padding:20px 100px;
+     box-shadow:25px 20px 25px rgba(0, 0, 0,0.3);
+     position:relative;
+}
+
+.header{
+     text-align:center;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+     word-spacing: 10px;
+}
+
+
+.form-control{
+
+     margin-bottom: 10px;
+
+     
+}
+input{
+     border-radius:5px;
+     border:1px solid lightgray ;
+     border-color: darkgrey;
+     display:block;
+     height:30px;
+     width:100%;
+     padding-left:20px;
+}
+
+input:focus{
+
+     outline:none;
+     
+     border-color: rgb(62, 106, 121);
+}
+
+button{
+
+     padding:10px 40px;
+     margin-left:45px;
+     margin-top:20px;
+     background-color:rgb(123, 230, 123);
+     border-radius:5px;
+     border-color: lightgrey;
+}
+
+.form-control.success input{
+
+     border-color:green;
+}
+
+.form-control.error input{
+     border:1px solid;
+     border-color:red;
+}
+
+.form-control small{
+     color:red;
+     visibility:hidden;
+}
+
+.form-control.error small{
+
+     visibility:visible;
+}

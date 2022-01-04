@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="cal.js"></script>
+	<title>Calculator</title>
+</head>
+<body>
+
+<h1 align="center">Mini-Calculator</h1>
+
+<form>
+	
+	<label>First No:</label>
+	<input type="text" name="fnum" id="fnum">
+    <br><br>
+    <label>Second No:</label>
+	<input type="text" name="snum" id="snum">
+    <br><br>
+
+    <select id="sele">
+    	<option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="mul">*</option>
+        <option value="div">/</option>
+    </select>
+    <br><br>
+
+<button type="button" onclick="myans()">Ans</button>
+
+<input type="text" id="ans" readonly placeholder="Answer">
+
+</form>
+
+
+</body>
+</html>
