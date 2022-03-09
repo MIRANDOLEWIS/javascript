@@ -1,0 +1,48 @@
+*{
+    		padding:0;
+    		margin:0;
+    		box-sizing: border-box;
+    	}
+
+
+        .sec{
+          border:1px solid black;
+          display:flex;
+          align-items: center;
+          justify-content:center;
+          height:100vh;
+         background-image:url(https://cdn.wallpapersafari.com/65/39/CuWebA.jpg);
+    	}
+
+    	.sec-1{
+    		
+    		padding:60px;
+    		border-radius:10px;
+    		background-color:rgba(0, 0, 0, 0.6);
+    	}
+
+        input{
+        	display:block;
+        	padding:10px;
+        	border-radius:10px;
+        	border-style: none;
+        }
+
+        strong{
+        	font-size:40px;
+        	margin-left:40px;
+        	color:white;
+        }    	
+    	
+    	input[type = 'submit'] {
+    		margin-left:55px;
+    		border-style: none;
+
+    	}
+
+    	input[type = 'submit']:hover{
+    		color:white;
+    		background-color:black;
+    		transition:0.5s;
+
+    	} 
